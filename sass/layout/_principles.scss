@@ -1,0 +1,37 @@
+.principles-icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.principles-icon-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.principles-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.principles-item {
+    width: calc(100% / 4 - 30px);
+    margin-left: 30px;
+}
+
+.principles-title {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+margin-bottom: 10px;
+}
+.principles-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
