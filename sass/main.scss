@@ -1,5 +1,6 @@
 @import "./utils/vars";
 @import "./base/reset";
+@import "./utils/mixins";
 @import "./base/common";
 @import "./utils/hidden";
 @import "./utils/current";
@@ -9,6 +10,8 @@
 @import "./components/container";
 @import "./components/logo";
 @import "./components/section";
+@import "./components/btn";
+@import "./components/socials";
 
 //LAYOUT
 
