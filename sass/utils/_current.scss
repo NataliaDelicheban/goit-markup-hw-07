@@ -1,8 +1,7 @@
-.current {
+.nav-list__link--current {
     color: var(--accent-color);
     position: relative;
-}
-.current::after {
+    &::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -11,4 +10,5 @@
     border-radius: 2px;
     left: 0;
     bottom: -34px;
+}
 }

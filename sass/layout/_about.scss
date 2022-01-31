@@ -1,13 +1,4 @@
-.about-box {
-    padding-top: 0;
-}
-.about-box__title {
-    text-align: center;
-    @include font($fs: 36px, $fw: 700, $lh: 1.17, $ls: 0.03em);
-    color: var(--title-color);
-    margin-bottom: 50px;
-}
-.about__list {
+.about {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -17,7 +8,7 @@
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
 }
-.about__text {
+.about__box {
     position: absolute;
     @include align-list;
     justify-content: center;

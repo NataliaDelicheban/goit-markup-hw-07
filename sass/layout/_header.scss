@@ -7,12 +7,6 @@
 .header__container {
     @include align-list;
 }
-.logo__header {
-    margin-right: 93px;
-}
-.logo__header--dark {
-    color: #000000;
-}
 .nav-list {
     display: flex;
     margin-left: auto;
@@ -28,8 +22,11 @@
 .nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
-
-.connect__contact {
+.connect {
+    display: flex;
+    margin-left: auto;
+}
+.connect__link {
  color: var(--header-color);
     @include font($fw: 500, $ls: 0.02em);
     @include align-list;
@@ -38,11 +35,11 @@
     color: var(--accent-color);
  }
 }
-.connect__list:not(:last-child) {
+.connect__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.connect__contact
+.connect__link
 .connect__icon {
     fill: currentColor;
     margin-right: 10px;

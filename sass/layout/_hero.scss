@@ -1,4 +1,4 @@
-.name {
+.hero {
     background-color: #2F303A;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -14,11 +14,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-.name__item {
+.hero_container {
     flex-direction: column;
     @include align-list
 }
-.name__title {
+.hero__title {
     text-align: center;
     @include font($fs: 44px, $fw: 900, $lh: 1.36, $ls: 0.06em);
     text-transform: uppercase;
@@ -27,7 +27,7 @@
     max-width: 696px;
     display: flex;
 }
-.name__btn {
+.hero__btn {
     font-family: inherit;
     text-align: center;
     cursor: pointer;

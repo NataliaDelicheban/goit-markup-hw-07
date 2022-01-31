@@ -1,10 +1,4 @@
-.clients-box__title {
-    text-align: center;
-    @include font($fs: 36px, $fw: 700, $lh: 1.17);
-    color: var(--title-color);
-    margin-bottom: 50px;
-}
-.clients__list {
+.clients {
     display: flex;
     justify-content: center;
     margin-left: -30px;
@@ -14,7 +8,7 @@
     margin-left: 30px;
     height: 92px;
 }
-.clients__icon {
+.clients__link {
     fill: #AFB1B8;
     @include align-list;
     justify-content: center;
